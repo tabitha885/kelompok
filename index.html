@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> KELOMPOK</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/icons/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/style.css"> 
-    <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <script type="text/javascript" src="bootstrap.bundle.js"></script>
     <style>
  /* Sembunyikan semua section secara default */
 .hidden-section {
@@ -687,7 +687,7 @@ style="height: 100vh; background-image: url('cincin.jpg'); background-size: cove
         <ul class="list-unstyled">
           <li><i class="bi bi-telephone" style="color: #4e0a0a;"></i> <strong>Phone:</strong> (+62) 834 2626 2890</li>
           <li><i class="bi bi-envelope" style="color: #4e0a0a;"></i> <strong>Email:</strong> Bitha@deliciaejewelry.com</li>
-          <li><i class="bi bi-geo-alt" style="color: #4e0a0a;"></i> <strong>Address:</strong> 123 Jewelry Avenue, Indonesia, Medan, Medan belawan</li>
+          <li><i class="bi bi-geo-alt" style="color: #4e0a0a;"></i> <strong>Address:</strong> 123 Jewelry Deliciae, Indonesia, Medan, Medan belawan</li>
         </ul>
       </div>
 
@@ -923,7 +923,7 @@ function showSection(sectionId) {
               <td>${item.name}</td>
               <td class="text-end">Rp ${item.price.toLocaleString()}</td>
               <td><input type="checkbox" onchange="toggleSelection(${index})" ${item.selected ? 'checked' : ''}></td>
-              <td><button class="btn btn-danger" onclick="removeFromCart('${item.name}')"><i class="bi bi-trash3-fill"></i>Hapus</button></td>
+              <td><button class="btn btn-danger" onclick="removeFromCart('${item.name}')">Hapus</button></td>
 
             `;
             cartItems.appendChild(row);
